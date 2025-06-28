@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="Styles.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playpen+Sans+Deva:wght@100..800&family=Signika:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="headerbg">
+      <nav class="navbar navbar-expand-lg ps-5 pe-5 navigationBar">
+        <h1 class="navbar-brand text-white">SRINIVAS.DEV</h1>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#dynNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="dynNavbar">
+          <ul class="navbar-nav ms-auto items">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!--Home page starts here-->
+    <main class="d-flex flex-column flex-lg-row mainContent">
+      <section
+        class="w-50 d-flex flex-column justify-content-center homesec1"
+        id="home"
+      >
+        <h3 class="">Hi ,<span class="wave">👋</span> I'm</h3>
+        <h1 class="fw-bolder name display-4">Srinivas Kappala</h1>
+        <h2 class="profname">I'm Full Stack Web Developer</h2>
+        <p>
+          I specialize in building fast, and scalable web applications using
+          modern technologies like <strong>React.js</strong>,
+          <strong>Bootstrap</strong>, <strong>Python</strong>, and
+          <strong>MySQL</strong>. I'm passionate about turning ideas into
+          elegant digital solutions.
+        </p>
+
+        <div class="mt-4">
+          <a href="#about"
+            ><button class="btn btn1" type="button">See More...</button></a
+          >
+          <button class="btn btn2 ms-3" type="button">
+            <a
+              href="Assets/Srinivas_Resume.pdf"
+              target="_blank"
+              class="text-decoration-none text-white"
+              >Download CV</a
+            >
+          </button>
+        </div>
+      </section>
+
+      <div
+        class="w-50 d-flex align-items-center justify-content-center homesec2part"
+      >
+        <div class="sec2innerdiv">
+          <img
+            src="Assets/Srinivas_bg_Portpic.png"
+            alt="Portrait of Srinivas Kappala"
+            class="img-fluid"
+          />
+        </div>
+        <section class="w-50 homesec2"></section>
+      </div>
+    </main>
+    <!--home page ends here-->
+
+    <hr />
+
+    <!--about page starts here-->
+    <div class="p-5">
+      <section class="d-flex" id="about">
+        <div class="aboutsec1">
+          <img
+            src="Assets/undraw_developer.png"
+            alt="about my picture"
+            class=""
+          />
+        </div>
+        <div class="ms-5 aboutsec2">
+          <h2 class="sec2h2"><strong>ABOUT ME</strong></h2>
+          <p class="sec2para">
+            Hello, I'm Srinivas, a passionate and detail-oriented full-stack
+            Developer with a solid foundation in HTML, CSS, Bootstrap,
+            JavaScript, and React.js. I also have hands-on experience with
+            Python and MySQL, and I’m actively expanding my knowledge in
+            full-stack web development. I enjoy building responsive,
+            user-friendly websites and dynamic web applications that provide a
+            seamless experience across all devices. My focus is on writing
+            clean, efficient code and continuously learning the latest
+            technologies in web development.
+          </p>
+          <p class="sec2para">
+            As a recent graduate and an enthusiastic learner, I am looking for
+            opportunities where I can contribute to meaningful projects, grow as
+            a developer, and work in a collaborative team environment. I am
+            highly motivated, quick to adapt, and always eager to take on new
+            challenges. I thrive in team settings and value clear communication,
+            continuous improvement, and delivering quality results. I'm open to
+            internships, junior developer roles, or freelance opportunities
+            where I can apply my skills and gain valuable industry experience.
+            Feel free to explore my projects below or contact me to connect!
+          </p>
+
+          <div>
+            <strong>E-mail :</strong> kappalasrinivas4@gmail.com <br />
+            <strong>Phone : </strong>+91 6304299387
+          </div>
+        </div>
+      </section>
+    </div>
+    <!--about page ends here-->
+
+    <hr />
+
+    <!--skills page starts here-->
+    <section class="skills-section pt-4 pb-4 ps-5 pe-5" id="skills">
+      <div class="">
+        <h3 class="technical-heading"><strong>Technical Skills</strong></h3>
+        <p class="skills-description">
+          Over the course of my learning journey in web development and
+          programming, I have acquired a diverse set of technical skills that
+          allow me to build responsive, interactive, and efficient web
+          applications. My front-end expertise includes HTML, CSS, JavaScript,
+          and libraries like Bootstrap and React.js, which I use to create
+          visually appealing and dynamic user interfaces. On the back-end, I
+          work with Python and MySQL to handle logic, databases, and server-side
+          operations. Additionally, I use GitHub for version control and
+          collaborative development. I am constantly improving and expanding my
+          skillset to stay up-to-date with the latest technologies and best
+          practices in full-stack development.
+        </p>
+      </div>
+      <div class="skills-grid pt-3">
+        <div class="skillboxes">
+          <img src="Assets/html.png" alt="html image" class="skillboximages" />
+          <h5 class="pt-1">HTML</h5>
+        </div>
+
+        <div class="skillboxes">
+          <img src="Assets/css.png" alt="css image" class="skillboximages" />
+          <h5 class="pt-1">CSS</h5>
+        </div>
+
+        <div class="skillboxes">
+          <img
+            src="Assets/bootstrap.png"
+            alt="bootstrap image"
+            class="skillboximages"
+          />
+          <h5 class="pt-1">BOOTSTRAP</h5>
+        </div>
+
+        <div class="skillboxes">
+          <img
+            src="Assets/javascript.png"
+            alt="javascript image"
+            class="skillboximages"
+          />
+          <h5 class="pt-1">JAVASCRIPT</h5>
+        </div>
+
+        <div class="skillboxes">
+          <img
+            src="Assets/reactjs.png"
+            alt="reactjs image"
+            class="skillboximages"
+          />
+          <h5 class="pt-1">REACTJS</h5>
+        </div>
+
+        <div class="skillboxes">
+          <img
+            src="Assets/python.png"
+            alt="Python image"
+            class="skillboximages"
+          />
+          <h5 class="pt-1">PYTHON</h5>
+        </div>
+
+        <div class="skillboxes">
+          <img
+            src="Assets/mysql.png"
+            alt="mysql image"
+            class="skillboximages"
+          />
+          <h5 class="pt-1">MYSQL</h5>
+        </div>
+
+        <div class="skillboxes">
+          <img
+            src="Assets/github.png"
+            alt="html image"
+            class="skillboximages"
+          />
+          <h4 class="pt-1">GITHUB</h4>
+        </div>
+      </div>
+    </section>
+    <!--skills page starts here-->
+
+    <hr />
+
+    <!--Projects page starts here-->
+    <section id="projects" class="pt-4 pb-1">
+      <div>
+        <h2 class="d-flex justify-content-center projectheading">
+          <strong>My Projects</strong>
+        </h2>
+      </div>
+      <div class="divsparent pt-3">
+        <div class="imagedivs">
+          <h4 class="pt-2"><u>Digital Clock</u></h4>
+          <img
+            src="Assets/digitalclock.png"
+            alt="digital clock image"
+            class="projectimages"
+          />
+          <p class="ps-3 pe-3 projectparas">
+            A real-time digital clock that displays current hours, minutes, and
+            seconds with AM/PM using JavaScript.
+          </p>
+
+          <p class="ps-3 pe-3">
+            <strong>Tech Used:</strong> HTML, CSS, Bootstrap, JavaScript
+          </p>
+          <div>
+            <a
+              href="https://sri04552.github.io/digitalclock/"
+              target="_blank"
+              class="text-decoration-none project-links"
+              >View Project</a
+            >
+          </div>
+        </div>
+        <div class="imagedivs">
+          <h4 class="pt-2"><u>To-Do List</u></h4>
+          <img
+            src="Assets/todolist.png"
+            alt="To-Do list image"
+            class="projectimages"
+          />
+          <p class="ps-3 pe-3 projectparas">
+            A task management app that allows to add, complete, and delete tasks
+            with live updates using JavaScript.
+          </p>
+          <p class="ps-3 pe-3">
+            <strong>Tech Used:</strong> HTML, CSS, Bootstrap, JavaScript
+          </p>
+          <div>
+            <a
+              href="https://sri04552.github.io/todolist/"
+              target="_blank"
+              class="text-decoration-none project-links"
+              >View Project</a
+            >
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="projectparas pt-4 ps-5 pe-5">
+          Every project showcased here is a reflection of my growing passion for
+          web development and my commitment to continuous learning. From simple
+          components to interactive applications, I strive to build clean,
+          responsive, and user-friendly interfaces. I’m constantly experimenting
+          with new technologies and frameworks to expand my skill set and stay
+          updated in the fast-paced tech world. Each line of code helps me
+          understand not just how things work, but why they work that way. I
+          believe in writing efficient, maintainable code that contributes to
+          real-world, impactful solutions. My learning journey is ongoing, and
+          I’m always working on new ideas to bring creative and practical
+          projects to life. Stay tuned for more projects as I continue to grow
+          and evolve as a developer.
+        </p>
+      </div>
+    </section>
+    <!--Projects page ends here-->
+
+    <hr />
+
+    <!--contact page starts here-->
+    <section id="contact">
+      <div>
+        <h2 class="text-center contactheading">
+          <strong>Get In Touch</strong>
+        </h2>
+      </div>
+      <div class="d-flex justify-content-center">
+        <div class="contactbg bg-dark">
+          <form id="contactform" name="contactform">
+            <div class="contactbginner">
+              <div class="pt-5 ps-5 pe-5 contactelements grid-container">
+                <div>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="First Name"
+                    autocomplete="on"
+                    id="firstname"
+                    name="firstname"
+                    required
+                    value=""
+                  />
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Last Name"
+                    autocomplete="on"
+                    id="lastname"
+                    name="lastname"
+                    value=""
+                    required
+                  />
+                </div>
+                <div>
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email"
+                    autocomplete="on"
+                    id="email"
+                    name="email"
+                    value=""
+                    required
+                  />
+                </div>
+                <div>
+                  <input
+                    type="tel"
+                    pattern="[0-9]{10}"
+                    class="form-control"
+                    placeholder="Phone"
+                    autocomplete="on"
+                    id="phone"
+                    name="phone"
+                    value=""
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="mt-3 ps-5 pe-5">
+                <label class="mb-1 contactlabel">Comments / Questions *</label>
+                <textarea
+                  class="form-control"
+                  rows="7"
+                  placeholder="Enter Your Message Here"
+                  autocomplete="on"
+                  name="contactMessage"
+                  required
+                ></textarea>
+              </div>
+              <div id="formSuccess" class="custom-alert d-none">
+                Form submitted successfully!
+              </div>
+            </div>
+            <div class="mt-3 mb-4 float-end me-5">
+              <button class="btn btn-info" type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="mt-3 ps-4 pe-4 pt-4 bg-dark">
+        <div class="d-flex justify-content-center">
+          <h4 class="text-white"><strong>SRINIVAS.DEV</strong></h4>
+        </div>
+        <div class="d-flex justify-content-center mt-1">
+          <p class="quote">
+            Transforming ideas into interactive web experiences ✨💻
+          </p>
+        </div>
+        <div class="iconscontent">
+          <div class="">
+            <a href="https://github.com/sri04552" target="_blank">
+              <span class="icons github-icon"
+                ><i class="bi bi-github fs-4"></i>
+              </span>
+            </a>
+          </div>
+
+          <div>
+            <a
+              href="https://www.linkedin.com/in/srinivas-kappala-882981360/"
+              target="_blank"
+            >
+              <span class="icons linkedin-icon"
+                ><i class="bi bi-linkedin fs-4"></i
+              ></span>
+            </a>
+          </div>
+
+          <div>
+            <a href="https://www.instagram.com/_sri_04_/?hl=en" target="_blank"
+              ><span class="icons instagram-icon"
+                ><i class="bi bi-instagram fs-4"></i> </span
+            ></a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mt-3">
+          <p class="copyrighttext">© 2025 Srinivas. All Rights Reserved.</p>
+        </div>
+      </div>
+    </section>
+
+    <!--contact page ends here-->
+
+    <script src="script.js" type="text/javascript "></script>
+  </body>
+</html>
