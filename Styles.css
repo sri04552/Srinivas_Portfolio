@@ -364,6 +364,14 @@ html {
   color: #45c1b5;
 }
 
+.whatsapp-icon {
+  color: #25d366;
+}
+
+.whatsapp-icon:hover {
+  color: #039e39;
+}
+
 .instagram-icon:hover {
   color: #e42a33;
 }
